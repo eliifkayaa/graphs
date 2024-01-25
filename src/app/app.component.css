@@ -1,0 +1,98 @@
+.container-fluid {
+  padding: 0px 50px 0px;
+  /* background-color: #EEEEEE; */
+}
+
+.head-text{
+  background-color: #CDC6BE;
+  /* backdrop-filter: blur(10px); */
+  height: 100px;
+  width: 100%;
+
+}
+
+.head-text h1 {
+  text-align: center;
+  color: black;
+  font-weight: 100;
+  padding-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  float: inline-end;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+.status-table {
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D0D0D0;
+  border-radius: 5px;
+  background-color: #EEEEEE;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: bold;
+}
+
+table.status-table th, table.status-table td {
+  text-align: left;
+  padding: 3px;
+}
+
+table.status-table th {
+  background-color: #f2f2f2;
+}
+
+table.status-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.status-table thead tr td{
+  padding-left: 10%;
+  color: #464646;
+}
+
+.status-table tbody tr td {
+  padding-left: 10%;
+  color: #8E8E8E;
+}
+
+figure.highcharts-figure {
+  display: flex;
+  padding-right: 200px;
+}
+
+hr {
+  width: 300px;
+}
+
+.text {
+  font-weight: bold;
+  color: #D02420;
+}
+
+.pie-chart-square {
+  display: flex;
+  padding: 20px;
+  float: inline-start;
+  height: 200px;
+}
+
+.square {
+  float: inline-end;
+  padding-right: 500px;
+}
+
+.pie-chart-square td {
+  text-align: center;
+}
+
+.shape {
+  display: flex;
+  width: 20px;
+  height: 20px; 
+  border-radius: 4px; 
+  margin-right: 5px; 
+}
